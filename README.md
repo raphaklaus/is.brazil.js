@@ -13,6 +13,9 @@ is.br.cep('2312301');
 is.br.boleto('3000111.12.92938282');
 => false
 
+is.br.nfe('55012239');
+=> false
+
 is.br.carnaval('04/02/2015');
 => true
 
